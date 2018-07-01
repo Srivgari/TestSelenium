@@ -6,7 +6,8 @@ public class NestedTry {
 		  try {
 			  try {
 				  System.out.println("division");
-				  int i=40/0;
+				  @SuppressWarnings("unused")
+				int i=40/0;
 				  }catch(ArithmeticException e) {System.out.println("case1");
 		  }
 			  try {
