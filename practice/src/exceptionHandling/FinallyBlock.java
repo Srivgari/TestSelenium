@@ -5,6 +5,7 @@ public class FinallyBlock {
 	public static void main(String[] args) {
 		
 		try{
+			@SuppressWarnings("unused")
 			int a= 50/0;
 			
 		}catch(NullPointerException e) {
